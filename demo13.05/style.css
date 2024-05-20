@@ -1,0 +1,228 @@
+/*/ стили ко всем элементам  /*/
+:root {
+  font-family: "Jost", sans-serif;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  max-width: 390px !important;
+
+  color: #000 !important;
+
+}
+
+
+/*/ стили к хедеру /*/
+.container-header {
+  border-bottom: 1px solid #9d9d9d;
+  max-width: 390px;
+  height: 268px;
+  background: #feceff;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 32px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  width: 79px;
+  height: 79px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  width: 264px;
+  height: 79px;
+}
+
+.logo h6 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+.logo h5 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 32px;
+  color: #000;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+  border-radius: 48px;
+  width: 230px;
+  height: 138px;
+  background: #f0bcf1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  grid-gap: 10px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+
+/*/ стили к мейну /*/
+.auth {
+  height: 253px !important;
+}
+
+.form-inpt {
+  min-width: 200px;
+  max-width: 500px !important;
+
+}
+
+.btn {
+
+  color: white !important;
+  background: #3548f4 !important;
+}
+
+.btn:hover {
+  background-color: rgb(17, 0, 255) !important;
+}
+
+main {
+  background: #f5c8e6;
+  min-height: calc(100vh - 115px);
+}
+
+.container-main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  grid-gap: 10px;
+}
+
+.cnt-info {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-gap: 10px;
+}
+
+.btn_admin {
+  padding: 0 !important;
+  width: 60px !important;
+  height: 20px !important;
+  font-size: 10px !important;
+
+
+}
+
+.main {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 350px;
+  grid-gap: 10px;
+
+}
+
+.form-reg {
+  border-radius: 12px;
+  height: 408px;
+  background: #f0bcf1;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.err {
+  color: red !important;
+}
+
+.error {
+  padding-top: 50px;
+  height: 10px;
+  max-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container-info {
+  border-radius: 5px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  color: #000000;
+  flex-direction: column;
+  grid-gap: 5px;
+}
+
+.container-info label {
+  text-align: center;
+  border-bottom: 0.5px solid #000;
+
+  background: #fff;
+
+}
+
+/*/ стили к футеру /*/
+.container-footer {
+  border-top: 1px solid #9d9d9d;
+  background: #feceff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 390px;
+  height: 115px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 342px;
+  height: 24px;
+}
